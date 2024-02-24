@@ -16,5 +16,14 @@
     "role": "Dietitian",
     "age": "34",
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg3NjAzODEsImV4cCI6MTcwODc2Mzk4MX0.LqTorZpvd5fbj5deGXZYP2uc9bVVFKCrgGarKRTbPdY"
+  },
+  {
+    "username": "dhruvam",
+    "password": "dhruvam",
+    "description": "dhruvam",
+    "gender": "male",
+    "role": "Dietitian",
+    "age": "18",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg3NzY1NzUsImV4cCI6MTcwODc4MDE3NX0.Ytt7jtiAm5gdu6ydlubTKziLO-WL5Ro80wsVCp0MkF4"
   }
 ]
