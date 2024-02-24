@@ -52,12 +52,12 @@ function App() {
   
   
   const router=createBrowserRouter([
-    {path: '/',
+    {path: '/Nutrition.github.io/',
       element:<><Pages  /></>,
       children:[
-      { path: '/about', element:<About /> },
-      { path: '/contact', element: <Contact /> },
-      { path: '/services', element: <Services/> },
+      { path: 'about', element:<About /> },
+      { path: 'contact', element: <Contact /> },
+      { path: 'services', element: <Services/> },
       
     ]},
   
