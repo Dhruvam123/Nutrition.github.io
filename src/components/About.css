@@ -1,0 +1,195 @@
+/* Reset some default styles */
+.dhruvam{
+    padding: 100px 40px 40px
+
+}
+
+
+
+
+/* Header styles */
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ecf0f1;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Introduction section styles */
+.introduction h2 {
+    font-size: 28px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Nutritionists section styles */
+.nutritionists h2 {
+    font-size: 28px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.nutritionist {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nutritionist img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.nutritionist h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.nutritionist p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Values section styles */
+.values h2 {
+    font-size: 28px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.values li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Why Choose Us section styles */
+.why-choose-us h2 {
+    font-size: 28px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.why-choose-us p {
+    font-size: 16px;
+    color: #555;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-us li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Testimonials section styles */
+.testimonials h2 {
+    font-size: 28px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #555;
+}
+.contact1{
+    display: flex!important;
+    flex-direction: column!important ;
+
+}
+
+/* Contact section styles */
+.contact1 h2 {
+    font-size: 28px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.contact1 p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.address {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 14px;
+}

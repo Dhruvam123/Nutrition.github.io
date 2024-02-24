@@ -1,0 +1,68 @@
+.client-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.client-box {
+  border: 1px solid #3498db;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%; /* Adjusted to occupy full width */
+  max-width: 200px; /* Added maximum width for responsiveness */
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px; /* Added margin at the bottom for spacing */
+}
+
+.client-box:hover {
+  transform: translateY(-5px);
+}
+
+.client-box div {
+  padding: 10px;
+}
+
+.client-box strong {
+  color: #3498db;
+}
+
+.client-box button {
+  background-color: #e74c3c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.client-box button:hover {
+  background-color: #c0392b;
+}
+
+.bar-chart {
+  width: 100%; /* Make sure the chart occupies full width */
+  text-align: center;
+}
+
+.chart-heading {
+  font-size: 20px;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.chart {
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Adjust the chart bar colors if needed */
+.bar-chart canvas {
+  background-color: #fff;
+}

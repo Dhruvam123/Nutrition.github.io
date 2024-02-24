@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "text": "hello dummy1",
+    "sender": "doctor1",
+    "reciever": "dummy1",
+    "timestamp": "2024-02-24T07:28:07.505Z"
+  },
+  {
+    "id": 2,
+    "text": "hii doctor1",
+    "sender": "dummy1",
+    "reciever": "doctor1",
+    "timestamp": "2024-02-24T07:28:29.054Z"
+  },
+  {
+    "id": 1,
+    "text": "how are you dummy1?",
+    "sender": "doctor1",
+    "reciever": "dummy1",
+    "timestamp": "2024-02-24T08:31:35.631Z"
+  },
+  {
+    "id": 2,
+    "text": "i am fine doctor1",
+    "sender": "dummy1",
+    "reciever": "doctor1",
+    "timestamp": "2024-02-24T08:31:55.697Z"
+  }
+]

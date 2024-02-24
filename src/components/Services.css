@@ -1,0 +1,45 @@
+.kavya{
+    padding: 100px 40px 40px
+}
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.service {
+    flex: 1;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 14px;
+}

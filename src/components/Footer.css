@@ -1,0 +1,9 @@
+.landing-page-footer{
+   
+    background-image:url('src/assets/Harshil.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+    position: relative;
+}

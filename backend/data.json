@@ -1,0 +1,29 @@
+[
+  {
+    "username": "dummy1",
+    "password": "dummy1",
+    "description": "dummy1 has problem1",
+    "gender": "male",
+    "role": "Dietitian",
+    "age": "18",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg3NTk0NDMsImV4cCI6MTcwODc2MzA0M30.brOhKgzm-dJhdmKg8V9k559yqdkYfil8sIhforPFeTU"
+  },
+  {
+    "username": "doctor1",
+    "password": "doctor1",
+    "description": "doctor1 has speciality1",
+    "gender": "male",
+    "role": "Nutritionist",
+    "age": "50",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg3NTk1MjgsImV4cCI6MTcwODc2MzEyOH0.Yo-QVBlZjTi30GPI_FWkpBtOr-j1MQRSkY06JkzIAZE"
+  },
+  {
+    "username": "dummy2",
+    "password": "dummy2",
+    "description": "dummy2 has problem2",
+    "gender": "female",
+    "role": "Dietitian",
+    "age": "34",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg3NjAzODEsImV4cCI6MTcwODc2Mzk4MX0.LqTorZpvd5fbj5deGXZYP2uc9bVVFKCrgGarKRTbPdY"
+  }
+]

@@ -1,0 +1,116 @@
+/* Add this CSS to your styles file or component */
+
+/* .appointment-scheduler {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  
+  .calendar-container {
+    width: 300px;
+    margin-right: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .agenda-container {
+    flex-grow: 1;
+  }
+  
+  .agenda-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .agenda-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .agenda-list li {
+    background-color: #eb6f6f;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .agenda-list li:hover {
+    transform: scale(1.02);
+  }
+  
+  .agenda-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .agenda-item {
+    padding: 15px;
+  }
+  
+  .client-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .appointment-details {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .agenda-toolbar button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .agenda-toolbar button:hover {
+    background-color: #c0392b;
+  } */
+  .appointment-scheduler {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.schedule-form,
+.cancel-form {
+  width: 300px;
+  background-color: #89ccf9;
+  color: #7cf8f8;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  border: 3px solid salmon;
+}
+
+
+.schedule-form h2,
+.cancel-form h2 {
+  margin-bottom: 10px;
+}
+
+.calendar-container {
+  width: 400px;
+  margin-right: 20px;
+  /* Add your calendar container styles here */
+}
+.honda{
+  font-weight: 600;
+  color: aqua;
+}
+  /* Add more styles as needed */
+  

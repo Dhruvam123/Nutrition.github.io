@@ -1,0 +1,31 @@
+/* src/Communication.css */
+.communication-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-container {
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 4px;
+    align-items: left;
+  }
+  
+  .doctor {
+    background-color: #e6f7ff;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+  }
+  

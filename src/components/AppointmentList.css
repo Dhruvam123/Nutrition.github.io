@@ -1,0 +1,80 @@
+/* CSS for AppointmentList Component */
+
+/* Container styles */
+.appointment-container {
+    max-width: 100%!important;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px!important;
+  }
+  
+  /* Header styles */
+  .appointment-header {
+    color: #333;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  /* Form and buttons styles */
+  .appointment-form {
+    margin-top: 20px;
+  }
+  
+  .label-select-client,
+  .label-cancellation-reason {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .select-client {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .input-cancellation-reason {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .button-approve,
+  .button-reject {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-reject {
+    background-color: #f44336;
+  }
+  
+  .button-approve:hover,
+  .button-reject:hover {
+    background-color: #45a049;
+  }
+  
+  /* Appointments list styles */
+  .appointments-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .appointment-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .approved-status {
+    color: green;
+  }
+  
+  .rejected-status {
+    color: red;
+  }
+  
