@@ -55,9 +55,9 @@ function App() {
     {path: '/Nutrition.github.io/',
       element:<><Pages  /></>,
       children:[
-      { path: 'about', element:<About /> },
-      { path: 'contact', element: <Contact /> },
-      { path: 'services', element: <Services/> },
+      { path: '/Nutrition.github.io/about', element:<About /> },
+      { path: '/Nutrition.github.io/contact', element: <Contact /> },
+      { path: '/Nutrition.github.io/services', element: <Services/> },
       
     ]},
   
