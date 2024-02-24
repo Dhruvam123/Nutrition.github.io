@@ -1,14 +1,5 @@
 [
   {
-    "username": "dummy1",
-    "password": "dummy1",
-    "description": "dummy1 has problem1",
-    "gender": "male",
-    "role": "Dietitian",
-    "age": "18",
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg3NTk0NDMsImV4cCI6MTcwODc2MzA0M30.brOhKgzm-dJhdmKg8V9k559yqdkYfil8sIhforPFeTU"
-  },
-  {
     "username": "doctor1",
     "password": "doctor1",
     "description": "doctor1 has speciality1",
