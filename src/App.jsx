@@ -24,7 +24,7 @@ import { DataProvider } from "./components/DataContext";
 import Dhruvam from "./components/MainPage/Dhruvam";
 import ComponentA from "./components/ComponentA";
 import { SharedProvider } from "./components/SharedContext";
-import ComponentB from "./components/ComponentB.JSX";
+
 import Communication from "./components/Communication";
 import MessageDisplay from "./components/MessageDisplay";
 import { SocketProvider } from "./components/SocketContext";
@@ -73,7 +73,7 @@ function App() {
   {path:'/mainpage/appointment',element:<AppointmentScheduler/>},
   {path:'/mainpage/dhruvam',element:<Dhruvam/>},
   {path:'/routeA',element:<SharedProvider><ComponentA/></SharedProvider>},
-  {path:'/routeB',element:<SharedProvider><ComponentB/></SharedProvider>},
+  
   {path:'/communication',element:<SocketProvider><Communication/></SocketProvider>},
   {path:'/display',element:<MessageDisplay/>},
   {path:'/patient',element:<Communication/>},
@@ -137,7 +137,7 @@ function App() {
         <SharedProvider>
         
         <ComponentA/>
-        <ComponentB/>
+       
         <AuthProvider instanceIdentifier={instanceIdentifier}>
           <MessageDisplay/>
           <Communication/>
