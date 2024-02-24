@@ -12,22 +12,12 @@ const AuthInput = ({ onevent }) => {
   const { flag, setAuthData } = useAuth();
   const navigate = useNavigate();
 
-  const userdata={
-    username: enteredEmail,
-    password: enteredPassword,
-
-  }
-
   async function handleLogin() {
     setSubmitted(true);
     try {
-      const response = await axios.post('http://192.168.63.183:3001/login',userdata,{
-        headers: {
-          'Content-Type': 'application/json', // Specify the content type of the request body
-      },
-      // Optionally, you can include credentials (cookies, authorization headers) in the request
-      withCredentials: true,
-        
+      const response = await axios.post('http://localhost:3001/login', {
+        username: enteredEmail,
+        password: enteredPassword,
       });
 
       const { token, role } = response.data;
