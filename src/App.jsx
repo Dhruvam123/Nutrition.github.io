@@ -55,7 +55,7 @@ function App() {
     {path: '/Nutrition.github.io/',
       element:<><Pages  /></>,
       children:[
-      { path: 'https://dhruvam123.github.io/Nutrition.github.io/about', element:<About /> },
+      { path: '/Nutrition.github.io/about', element:<About /> },
       { path: '/Nutrition.github.io/contact', element: <Contact /> },
       { path: '/Nutrition.github.io/services', element: <Services/> },
       
