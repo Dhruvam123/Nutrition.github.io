@@ -1,14 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "homepage": "https://Dhruvam123.github.io/Nutrition.github.io",
+  
   "description": "",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build":"react-scripts build"
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "keywords": [],
   "author": "",
