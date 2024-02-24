@@ -15,7 +15,7 @@ const AuthInput = ({ onevent }) => {
   async function handleLogin() {
     setSubmitted(true);
     try {
-      const response = await axios.post('http://192.168.63.183:3001/login', {
+      const response = await axios.post('http://localhost:3001/login', {
         username: enteredEmail,
         password: enteredPassword,
       });
