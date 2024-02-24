@@ -1,10 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "homepage": "https://Dhruvam123.github.io/Nutrition.github.io",
   "description": "",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +15,7 @@
   "dependencies": {
     "axios": "^1.6.7",
     "body-parser": "^1.20.2",
+    "build": "^0.1.4",
     "chart.js": "^4.4.1",
     "chartjs-adapter-moment": "^1.0.1",
     "child_process": "^1.0.2",
@@ -24,5 +28,8 @@
     "socket.io": "^4.7.4",
     "styled-components": "^6.1.8",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
